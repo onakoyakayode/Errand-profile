@@ -25,7 +25,7 @@ body {
 
 header .profile {
     background: rgba(242, 234, 245, 0.57);
-    background-image: url('/Icons/seamless-pattern-mail-envelopes-vector-background-postal-delivery-93224452\ 1.png');
+    background-image: url('seamless-pattern-mail-envelopes-vector-background-postal-delivery-93224452\ 1.png');
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     display: flex;
@@ -39,7 +39,7 @@ header .profile {
 @media screen and (min-width: 601px) and (max-width: 900px) {
     header .profile {
         background: rgba(242, 234, 245, 0.57);
-        background-image: url('/Icons/seamless-pattern-mail-envelopes-vector-background-postal-delivery-93224452\ 1.png');
+        background-image: url('seamless-pattern-mail-envelopes-vector-background-postal-delivery-93224452\ 1.png');
         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
         border-radius: 12px;
         display: flex;
@@ -173,7 +173,7 @@ header .profile {
 /** Naira Icon **/
 #balance-amount::before {
     position: absolute;
-    content: url('/Icons/Naira.png');
+    content: url('Naira.png');
     width: 17.5px;
     height: 17.5px;
     left: -17.5px;
@@ -280,7 +280,7 @@ header .profile {
 
 .personal-icon::before {
     position: absolute;
-    content: url('/Icons/Personal-details.png');
+    content: url('Personal-details.png');
     width: 16.67px;
     height: 15px;
     left: -35px;
@@ -300,7 +300,7 @@ header .profile {
 
 .payment-icon::before {
     position: absolute;
-    content: url('/Icons/Payment.png');
+    content: url('Payment.png');
     width: 16.67px;
     height: 15px;
     left: -35px;
@@ -319,7 +319,7 @@ header .profile {
 
 .delivery-icon::before {
     position: absolute;
-    content: url('/Icons/Address.png');
+    content: url('Address.png');
     width: 16.67px;
     height: 15px;
     left: -35px;
@@ -338,7 +338,7 @@ header .profile {
 
 .help-icon::before {
     position: absolute;
-    content: url('/Icons/Help-Support.png');
+    content: url('Help-Support.png');
     width: 16.67px;
     height: 15px;
     left: -35px;
@@ -357,7 +357,7 @@ header .profile {
 
 .log-icon::before {
     position: absolute;
-    content: url('/Icons/Log\ out.png');
+    content: url('Log\ out.png');
     width: 16.67px;
     height: 15px;
     left: -35px;
