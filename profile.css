@@ -17,8 +17,8 @@ body {
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     body {
-        min-height: 120vh;
-        overflow-x: auto;
+        height: 100%;
+        min-height: 140vh;
     }
 }
 
@@ -42,7 +42,7 @@ header .profile {
 @media screen and (min-width: 601px) and (max-width: 900px) {
     header .profile {
         height: 100%;
-        padding: 20px 0 30px 0;
+        padding: 10px 0 20px 0;
     }
 }
 
@@ -186,13 +186,13 @@ header .profile {
 /** Main **/
 .main-wrapper {
     background-color: #FFF;
-    margin: 12% 0 40px 0;
+    margin: 10% 0 0px 0;
     padding: 0 20px;
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .main-wrapper {
-        margin: 8% 0;
+        margin: 8% 0 15%;
         padding: 0 40px;
     }
 }
@@ -211,7 +211,7 @@ header .profile {
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .main-wrapper h4 {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 26px;
         letter-spacing: 0.01em;
     }
@@ -247,7 +247,7 @@ header .profile {
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .user-profile a {
-        height: 60px;
+        height: 50px;
         padding: 13px;
         margin: 0 0 4% 0;
     }
@@ -387,7 +387,7 @@ header .profile {
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .footer-wrapper {
         border-top: 1px solid #545454;
-        padding: 2% 0px 0% 0px;
+        padding: 0% 0px 0% 0px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         place-items: center;
@@ -415,24 +415,26 @@ header .profile {
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.01em;
+    margin-block-end: 10%;
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .user h5 {
-        font-size: 16px;
+        font-size: 14px;
+        margin-block-end: 10%;
     }
 }
 
 .user img {
-    width: 24px;
-    height: 24px;
-    margin: 9px 0 -10px 0px;
+    width: 23px;
+    height: 23px;
+    margin: 9px 0 -15px 0px;
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .user img {
-        width: 32px;
-        height: 32px;
+        width: 26px;
+        height: 26px;
         margin: 10px 0 -15px 0px;
     }
 }
